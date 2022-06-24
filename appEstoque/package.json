@@ -11,5 +11,15 @@
     "ecosystem:cordova"
   ],
   "author": "Apache Cordova Team",
-  "license": "Apache-2.0"
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "cordova-plugin-splashscreen": "^6.0.1",
+    "cordova-plugin-vibration": "^3.1.1"
+  },
+  "cordova": {
+    "plugins": {
+      "cordova-plugin-vibration": {},
+      "cordova-plugin-splashscreen": {}
+    }
+  }
 }
